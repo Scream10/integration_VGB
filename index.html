@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="Fabricant de garage ossature bois sur mesure
+  ou standard de qualité. | ✓ Esthétique et durabilité + 50 ans.  Livraison dans
+  toute la France, garage toit plat en kit, en caissons ou fourniture et pose.
+  Devis ultra détaillé, simulation garage 3D. Service premium. Prise en charge
+  du montage permis de construire">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Garage ossature bois sur mesure de qualité | Garage bois double en
+  kit</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="d-flex justify-content-between align-items-center h-100
+      container-nav">
+        <section class="d-flex">
+          <a href="/" class="d-flex align-items-center mr-4 pr-2">
+            <img src="elements/svg/picto_phone.svg" id="picto-phone"
+            class="mr-2" alt="picto phone">
+            <p>03 39 25 05 50</p>
+          </a>
+          <a href="/" class="d-flex align-items-center">
+            <img src="elements/svg/picto_mail.svg" id="picto-mail" class="mr-2"
+            alt="picto mail">
+            <p>Contactez-nous</p>
+          </a>
+        </section>
+        <section class="d-flex">
+          <div class="d-flex align-items-center mx-4">
+            <img src="elements/madeinfrance.png" id="picto-madeinfrance"
+            alt="french flag">
+          </div>
+          <span class="divider-white"></span>
+          <a href="/" class="d-flex align-items-center mx-4">
+            <img src="elements/svg/picto_espace_client.svg"
+            id="picto-espace-client" alt="espace client logo">
+            <p class="text-uppercase ml-3">espace client</p>
+          </a>
+          <span class="divider-white"></span>
+          <div class="d-flex align-items-center ml-4">
+            <ul class="d-flex mb-0">
+              <li class="mr-3">
+                <a href="/">
+                  <img src="elements/svg/picto_fb_marron.svg" alt="picto
+                  facebook">
+                </a>
+              </li>
+              <li class="mr-3">
+                <a href="/">
+                  <img src="elements/svg/picto_tw_marron.svg" alt="picto
+                  twitter">
+                </a>
+              </li>
+              <li class="mr-3">
+                <a href="/">
+                  <img src="elements/svg/picto_inst_marron.svg" alt="picto
+                  instagram">
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <img src="elements/svg/picto_yt_marron.svg" alt="picto
+                  youtube">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </nav>
+    <nav>
+      <div class="d-flex justify-content-between h-100 container-nav">
+        <section class="d-flex align-items-center position-relative">
+          <a href="/">
+            <img src="elements/logo_VOTRE_GARAGE_BOISh.png"
+            id="logo-votre-garage-bois" alt="logo votre garage bois">
+          </a>
+          <div class="triangle-nav position-absolute z-index-max"></div>
+          <div id="logo-bois-passion" class="d-flex align-items-center
+          position-absolute z-index-max" >
+            <p class="mr-2 brown-dark font-15">par</p>
+            <img src="elements/logo_BetP_h.png" alt="logo bois et passion">
+          </div>
+        </section>
+        <section class="d-flex align-items-center">
+          <a href="/">
+            <p class="text-uppercase font-14 mx-2">la société</p>
+          </a>
+          <a href="/"></a>
+            <p class="text-uppercase font-14 mx-2">nos garages<i class="arrow
+            down"></i></p>
+          </a>
+          <a href="/">
+            <p class="text-uppercase font-14 mx-2">conception<i class="arrow
+            down"></i></p>
+          </a>
+          <a href="/">
+            <p class="text-uppercase font-14 mx-2">nos produits<i class="arrow
+            down"></i></p>
+          </a>
+          <a href="/">
+            <p class="text-uppercase font-14 mx-2">astuces</p>
+          </a>
+          <a href="/">
+            <p class="text-uppercase font-14 mx-2">actu</p>
+          </a>
+          <a href="/">
+            <p class="text-uppercase font-14 mx-2">forum</p>
+          </a>
+          <a href="/">
+            <p class="text-uppercase font-14 mx-3">faq</p>
+          </a>
+          <a href="/" id="simulateur" class="bg-orange px-3 py-3">
+            <div class="d-flex">
+              <img src="elements/svg/picto_simulateur.svg" class="mt-1"
+              alt="picto simulateur">
+              <div class="ml-3">
+                <p class="text-uppercase font-regular font-weight-bold">testez
+                notre</p>
+                <p id="simulateur-orange" class="text-uppercase font-regular
+                font-weight-bold font-19">simulateur</p>
+              </div>
+            </div>
+            <p class="text-uppercase">gratuit & sans engagement</p>
+          </a>
+        </section>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div id="carouselBannerControls" class="carousel slide d-flex
+    justify-content-center" data-ride="carousel">
+      <div id="simulateur-garage" class="position-absolute z-index-max
+      text-white text-center py-3">
+        <p class="mb-0">le 1er simulateur en ligne de</p>
+        <h1 class="text-uppercase">votre garage bois</h1>
+      </div>
+      <div id="simulateur-garage-arrow" class="position-absolute z-index-max
+      text-white text-center">
+        <img src="elements/svg/fleche_slider_bas.svg" alt="fleche slider bas">
+      </div>
+      <div id="info-simulations-garages" class="position-absolute z-index-max
+      px-2 py-3 text-center">
+        <img src="elements/svg/picto_logo_garage_blanc.svg"
+        id="picto-garage-blanc" class="mb-2" alt="picto garage blanc">
+        <p class=" mb-0 text-white text-uppercase letter-spacing-1">déjà</p>
+        <p class=" mb-0 orange font-27 letter-spacing-1">1969</p>
+        <p class=" mb-0 text-white text-uppercase font-13
+        letter-spacing-1">simulations de garages</p>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="elements/slider01.jpg" alt="First
+          slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="elements/slider01.jpg" alt="Second
+          slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="elements/slider01.jpg" alt="Third
+          slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselBannerControls"
+      role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselBannerControls"
+      role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <section id="fond-simulateur-home" class="w-100 pt-5">
+      <article class="text-center">
+        <img src="elements/svg/check.svg" class="pt-4 pb-2" alt="check">
+        <p class="font-25 brown">
+          J'obtiens mes vues 3D et mon devis 
+          <br>gratuitement et instantanément
+        </p>
+      </article>
+      <article class="d-flex justify-content-center mt-5">
+        <div class="d-flex flex-column align-items-center justify-content-center
+        mr-5 pr-2">
+          <img src="elements/svg/picto_garage_standard.svg"
+          id="picto-garage-standard" alt="picto garage standard">
+          <a href="/" class="btn btn-orange text-uppercase font-weight-bold mt-4
+          d-flex justify-content-center align-items-center">votre garage
+          standard</a>
+        </div>
+        <div class="d-flex flex-column align-items-center justify-content-center
+        ml-5 pl-2 mt-3 pt-2">
+          <img src="elements/svg/picto_garage_surmesure.svg"
+          id="picto-garage-surmesure" alt="picto garage sur mesure">
+          <a href="/" class="btn btn-orange text-uppercase font-weight-bold mt-4
+          d-flex justify-content-center align-items-center">votre garage
+          sur-mesure</a>
+        </div>
+      </article>
+      <article class="text-center my-5 pt-4">
+        <p class="font-23 font-regular brown">Faites de votre garage bois <span
+        class="font-semibold">une pièce unique</span></p>
+      </article>
+    </section>
+    <section class="h-100">
+      <div class="d-flex flex-column align-items-center">
+        <h2 class="text-uppercase text-center mt-5 pt-5 mb-3">ce que nos clients
+        pensent de nous</h2>
+        <div class="divider-brown"></div>
+      </div>
+      <div id="div-scroll-avis">
+        <img src="elements/avis_verifie.jpg" class="my-5 ml-3" alt="avis
+        vérifiés">
+      </div>
+    </section>
+    <section class="my-5 pb-5">
+      <div class="d-flex justify-content-center align-items-center mb-5 pb-5">
+        <h2 class="text-uppercase text-center mr-2">nos + pour vous</h2>
+        <img src="elements/svg/coeur.svg" id="coeur" class="mb-2" alt="coeur">
+      </div>
+      <article class="d-flex justify-content-center">
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 d-flex justify-content-center
+          align-items-center">
+            <img src="elements/svg/picto_plan.svg" class="picto-nos-plus"
+            alt="picto plan">
+          </div>
+          <p class="font-regular font-13">Plans de maçonneries fournis par notre
+          bureau d'études</p>
+        </div>
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 d-flex justify-content-center
+          align-items-center">
+            <img src="elements/svg/picto_video_notice.svg" class="picto-nos-plus
+            " alt="picto video notice">
+          </div>
+          <p class="font-regular font-13">Vidéos et notices de montage<br>
+          à disposition
+          </p>
+        </div>
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 d-flex justify-content-center
+          align-items-center">
+            <img src="elements/svg/picto_hauteur.svg" class="picto-nos-plus"
+            alt="picto hauteur">
+          </div>
+          <p class="font-regular font-13">Hauteur standard<br>
+          de 2,90m</p>
+        </div>
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 d-flex justify-content-center
+          align-items-center">
+            <img src="elements/svg/picto_garage_vendu.svg" class="picto-nos-plus
+            " alt="picto garage vendu">
+          </div>
+          <p class="font-regular font-13">194 garages vendus<br>
+          depuis 2018</p>
+        </div>
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 d-flex justify-content-center
+          align-items-center">
+            <img src="elements/svg/picto_village_temoin.svg"
+            class="picto-nos-plus " alt="picto village temoin">
+          </div>
+          <p class="font-regular font-13">Venez nous rencontrer dans notre
+          village témoin</p>
+        </div>
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 mt-2 d-flex
+          justify-content-center align-items-center">
+            <img src="elements/svg/picto_livraison.svg" class="picto-nos-plus "
+            alt="picto livraison">
+          </div>
+          <p class="font-regular font-13">Livraison dans toute la France avec
+          chariot embarqué</p>
+        </div>
+      </article>
+      <article class="d-flex justify-content-center mt-5 pt-4">
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 d-flex justify-content-center
+          align-items-center">
+            <img src="elements/svg/picto_arbre.svg" class="picto-nos-plus-2"
+            alt="picto arbre">
+          </div>
+          <p class="font-regular font-13">1 arbre coupé = 1 arbre planté</p>
+        </div>
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 d-flex justify-content-center
+          align-items-center">
+            <img src="elements/svg/picto_quincaillerie.svg"
+            class="picto-nos-plus-2 " alt="picto quincaillerie">
+          </div>
+          <p class="font-regular font-13">Toutes les quincailleries fournies
+          </p>
+        </div>
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 d-flex justify-content-center
+          align-items-center">
+            <img src="elements/svg/picto_fab_france.svg" class="picto-nos-plus-2
+            " alt="picto fabriquer en france">
+          </div>
+          <p class="font-regular font-13">Fabriqué en France</p>
+        </div>
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 d-flex justify-content-center
+          align-items-center">
+            <img src="elements/svg/picto_assistance.svg" class="picto-nos-plus-2
+            " alt="picto assistance">
+          </div>
+          <p class="font-regular font-13">Assistance technique<br>
+          par téléphone</p>
+        </div>
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 d-flex justify-content-center
+          align-items-center">
+            <img src="elements/svg/picto_aide_permis.svg"
+            class="picto-nos-plus-2 " alt="picto aide permis">
+          </div>
+          <p class="font-regular font-13">Service d’aide à l’élaboration<br>
+          du permis de construire</p>
+        </div>
+        <div class="container-nos-plus text-center mr-4">
+          <div class="container-logo-nos-plus mb-3 d-flex justify-content-center
+          align-items-center">
+            <img src="elements/svg/picto_garantie.svg" class="picto-nos-plus-2"
+            alt="picto garantie">
+          </div>
+          <p class="font-regular font-13">Garantie décennale sur la pose, RC
+          Fabriquant (5 ans)<br>
+          sur nos kits</p>
+        </div>
+      </article>
+    </section>
+    <section id="systeme-constructif" class="mt-5">
+      <div class="d-flex flex-column align-items-center pt-5">
+        <h2 class="text-uppercase text-center">3 systèmes constructifs</h2>
+        <div class="divider-brown"></div>
+      </div>
+      <article class="d-flex justify-content-center my-5">
+        <div class="card-deck">
+          <div class="card mr-4" style="width: 23.4rem;">
+            <a href="/" class="position-relative">
+              <img class="card-img-top" src="elements/systeme1.jpg" alt="systeme
+              1">
+              <img src="elements/svg/play_video.svg" class="play-video
+              position-absolute" alt="play video">
+            </a>
+            <div class="card-body px-4">
+              <h5 class="text-uppercase font-17 beige font-weight-bold">pose en
+              kit à poser</h5>
+              <p class="card-text font-14 font-regular beige">Pour les
+              bricoleurs confirmés</p>
+              <div class="dropdown-divider"></div>
+              <ul>
+                <li class="font-14">Un prix avantageux</li>
+                <li class="font-14">Des plans détaillés fournis</li>
+                <li class="font-14">Une assistance en cas de difficulté</li>
+              </ul>
+              <div class="les-plus position-absolute"></div>
+            </div>
+          </div>
+          <div class="card mr-4" style="width: 23.4rem;">
+            <a href="/" class="position-relative">
+              <img class="card-img-top" src="elements/systeme2.jpg" alt="systeme
+              2">
+              <img src="elements/svg/play_video.svg" class="play-video
+              position-absolute" alt="play video">
+            </a>
+            <div class="card-body px-4">
+              <h5 class="text-uppercase font-17 beige font-weight-bold">pose en
+              caissons</h5>
+              <p class="card-text font-14 font-regular beige">Pour les
+              bricoleurs dans l'âme ou amateurs</p>
+              <div class="dropdown-divider"></div>
+              <ul>
+                <li class="font-14">Une facilité de montage</li>
+                <li class="font-14">Un prix intermédiaire</li>
+                <li class="font-14">Une assistance en cas de difficulté</li>
+              </ul>
+              <div class="les-plus position-absolute"></div>
+            </div>
+          </div>
+          <div class="card" style="width: 23.4rem;">
+            <a href="/" class="position-relative">
+              <img class="card-img-top" src="elements/systeme3.jpg" alt="systeme
+              3">
+              <img src="elements/svg/play_video.svg" class="play-video
+              position-absolute" alt="play video">
+            </a>
+            <div class="card-body px-4">
+              <h5 class="text-uppercase font-17 beige
+              font-weight-bold">fourniture & pose</h5>
+              <p class="card-text font-14 font-regular beige">Faites confiance à
+              notre savoir-faire !</p>
+              <div class="dropdown-divider"></div>
+              <ul>
+                <li class="font-14">Une équipe de professionnels</li>
+                <li class="font-14">Une rapidité d'expédition</li>
+                <li class="font-14">Des finitions soignées</li>
+              </ul>
+              <div class="les-plus position-absolute"></div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <div class="d-flex justify-content-center">
+        <a href="/" class="btn btn-orange-small text-uppercase font-weight-bold
+        mt-4 d-flex justify-content-center align-items-center">
+          <img src="elements/svg/picto_simulateur.svg" alt="picto simulateur">
+          <p class="mb-0 ml-3 font-14">tester notre simulateur</p>
+        </a>
+      </div>
+    </section>
+    <section id="section-info-chiffres" class="w-100">
+      <article class="d-flex justify-content-around align-items-center h-100
+      container">
+        <div>
+          <p class="orange font-44 text-center">198</p>
+          <p class="text-white text-uppercase font-17 text-center">garages<br>
+          vendus</p>
+        </div>
+        <div>
+          <p class="orange font-44 text-center">1 415 697€</p>
+          <p class="text-white text-uppercase font-17 text-center">de
+          chiffre<br>
+          d'affaire</p>
+        </div>
+        <div>
+          <p class="orange font-44 text-center">480</p>
+          <p class="text-white text-uppercase font-17 text-center">projets<br>
+          réalisés</p>
+        </div>
+        <div>
+          <p class="orange font-44 text-center">17</p>
+          <p class="text-white text-uppercase font-17 text-center">personnes
+          à<br>
+          votre service</p>
+        </div>
+      </article>
+    </section>
+    <section class="my-5 py-5">
+      <article class="container-main d-flex justify-content-between
+      align-items-center mt-5">
+        <div class="d-flex flex-column">
+          <h2 class="text-uppercase">sur instagram</h2>
+          <div class="divider-brown"></div>
+        </div>
+        <div>
+          <img src="elements/svg/picto_insta_vert.svg" id="picto-insta-vert"
+          class="mb-4" alt="picto instagram vert">
+        </div>
+      </article>
+      <article class="d-flex align-items-center mt-4 pt-2 flex-column">
+        <div>
+          <img src="elements/insta01.jpg" class="pictures-insta" alt="insta 1">
+          <img src="elements/insta02.jpg" class="pictures-insta" alt="insta 2">
+          <img src="elements/insta03.jpg" class="pictures-insta" alt="insta 3">
+          <img src="elements/insta04.jpg" class="pictures-insta" alt="insta 4">
+        </div>
+        <div class="mt-1 mb-5 pb-5">
+          <img src="elements/insta05.jpg" class="pictures-insta" alt="insta 5">
+          <img src="elements/insta06.jpg" class="pictures-insta" alt="insta 6">
+          <img src="elements/insta07.jpg" class="pictures-insta" alt="insta 7">
+          <img src="elements/insta08.jpg" class="pictures-insta" alt="insta 8">
+        </div>    
+      </article>
+    </section>
+    <section class="d-flex justify-content-between container-main my-5 pt-5
+    position-relative">
+      <div id="background-gray-left" class="position-absolute"></div>
+      <article class="mr-5 pr-5">
+        <a href="/" class="position-relative">
+          <img src="elements/video_pres02.jpg" style="height: 450px; width:
+          576px;" alt="">
+          <img src="elements/svg/play_video.svg" class="play-video
+          position-absolute" alt="play video">
+        </a>
+      </article>
+      <article>
+        <div class="d-flex flex-column">
+          <h2 class="text-uppercase">vos services intégrés</h2>
+          <div class="divider-brown"></div>
+        </div>
+        <ul class="mt-5">
+          <li class="d-flex align-items-center my-3">
+            <img src="elements/svg/picto_equipe_jeune.svg" class="mr-4
+            picto-service-integres" alt="picto équipe jeune">
+            <p class="noto-sans font-15 mb-0">Une équipe jeune et dynamique</p>
+          </li>
+          <div class="dropdown-divider dropdown-divider-mid"></div>
+          <li class="d-flex align-items-center my-3">
+            <img src="elements/svg/picto_service_carte.svg" class="mr-4
+            picto-service-integres" alt="picto service carte">
+            <p class="noto-sans font-15 mb-0">Service à la carte</p>
+          </li>
+          <div class="dropdown-divider dropdown-divider-mid"></div>
+          <li class="d-flex align-items-center my-3">
+            <img src="elements/svg/picto_tandem_commercial.svg" class="mr-4
+            picto-service-integres" alt="picto tandem commercial">
+            <p class="noto-sans font-15 mb-0">Tandem commercial à votre
+            écoute</p>
+          </li>
+          <div class="dropdown-divider dropdown-divider-mid"></div>
+          <li class="d-flex align-items-center my-3">
+            <img src="elements/svg/picto_garage_surmesure_vert.svg" class="mr-4
+            picto-service-integres" alt="picto garage sur-mesure vert">
+            <p class="noto-sans font-15 mb-0">Garage sur-mesure intégré à
+            l'existant</p>
+          </li>
+          <div class="dropdown-divider dropdown-divider-mid"></div>
+          <li class="d-flex align-items-center">
+            <img src="elements/svg/picto_bureau_etude.svg" class="mr-4
+            picto-service-integres" alt="picto bureau d'étude">
+            <p class="noto-sans font-15 mb-0">Bureau d'étude</p>
+          </li>
+        </ul>
+      </article>
+    </section>
+    <section class="d-flex flex-column align-items-center mb-5 pb-5">
+      <p class="font-21 noto-sans brown-dark font-weight-bold
+      text-center">Utilisez notre puissance créative,<br>
+      commencez l'aventure maintenant</p>
+      <a href="/" class="btn btn-green-small text-uppercase font-weight-bold
+      mt-3 d-flex justify-content-center align-items-center">
+        <p class="mb-0 font-14 font-weight-bold font-regular">en savoir plus</p>
+      </a>
+    </section>
+    <section class="d-flex justify-content-center mt-5 pt-5 position-relative">
+      <div id="background-gray-right" class="position-absolute
+      z-index-negative"></div>
+      <div id="dropdown-divider-category" class="dropdown-divider w-100
+      position-absolute z-index-negative-2"></div>
+      <article class="mr-5 mt-5 position-relative">
+        <img src="elements/vignette_finitions.jpg" style="height: 221px; width:
+        263px;" alt="vignette finitions">
+        <div class="triangle-category position-absolute z-index-max"></div>
+        <p class="text-center text-uppercase borwn font-19 mt-3">les
+        finitions</p>
+      </article>
+      <article class="mr-5 mt-5 position-relative">
+        <img src="elements/vignette_menuiserie.jpg" style="height: 221px; width:
+        263px;" alt="vignette menuiseries">
+        <div class="triangle-category position-absolute z-index-max"></div>
+        <p class="text-center text-uppercase borwn font-19 mt-3">les
+        menuiseries</p>
+      </article>
+      <article class="mr-5 mt-5 position-relative">
+        <img src="elements/vignette_en_images.jpg" style="height: 221px; width:
+        263px;" alt="vignette en image">
+        <div class="triangle-category triangle-category-2 position-absolute
+        z-index-max"></div>
+        <p class="text-center text-uppercase borwn font-19 mt-3">en images</p>
+      </article>
+      <article class="mr-5 mt-5 position-relative">
+        <img src="elements/vignette_en_video.jpg" style="height: 221px; width:
+        263px;" alt="vignette en vidéo">
+        <div class="triangle-category triangle-category-3 position-absolute
+        z-index-max"></div>
+        <p class="text-center text-uppercase borwn font-19 mt-3">en vidéos</p>
+      </article>
+    </section>
+    <section class="container my-5 py-5">
+      <div class="d-flex flex-column align-items-center my-5 pt-5">
+        <h2 class="text-uppercase text-center">Nos partenaires</h2>
+        <div class="divider-brown"></div>
+      </div>
+      <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="elements/partenaires.jpg" alt="First
+            slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="elements/partenaires.jpg"
+            alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="elements/partenaires.jpg" alt="Third
+            slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls"
+        role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls"
+        role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <div class="dropdown-divider"></div>
+    <section class="container-main mt-5 pt-5">
+      <article class="d-flex justify-content-between align-items-center mb-5">
+        <div class="d-flex flex-column">
+          <h2 class="text-uppercase">dernières actualités</h2>
+          <div class="divider-brown"></div>
+        </div>
+        <div>
+          <img src="elements/svg/picto_rss.svg" id="picto-rss" class="mb-4"
+          alt="picto rss">
+        </div>
+      </article>
+    </section>
+    <section class="d-flex justify-content-center my-5 container-main">
+      <div class="card-deck">
+        <div class="mr-4" style="width: 23.3rem;">
+          <img class="card-img-top" src="elements/actu01.jpg" alt="actualité 1">
+          <div class="card-body">
+            <p class="card-text font-14 noto-sans beige mb-1">04/09/2020</p>
+            <h5 class="text-uppercase font-17 font-regular font-weight-bold
+            mb-1">garage en ossature bois accolé à la maison existante</h5>
+            <img src="elements/svg/fleche_verte.svg" class="fleche-verte"
+            alt="fleche verte">
+          </div>
+        </div>
+        <div class="mr-4" style="width: 23.3rem;">
+          <img class="card-img-top" src="elements/actu02.jpg" alt="actualité 2">
+          <div class="card-body">
+            <p class="card-text font-14 noto-sans beige mb-1">23/07/2020</p>
+            <h5 class="text-uppercase font-17 font-regular font-weight-bold
+            mb-1">avant / après : agrandissement d'un garage existant</h5>
+            <img src="elements/svg/fleche_verte.svg" class="fleche-verte"
+            alt="fleche verte">
+          </div>
+        </div>
+        <div style="width: 23.3rem;">
+          <img class="card-img-top" src="elements/actu03.jpg" alt="actualité 3">
+          <div class="card-body">
+            <p class="card-text font-14 noto-sans beige mb-1">26/03/2020</p>
+            <h5 class="text-uppercase font-17 font-regular font-weight-bold
+            mb-1">garage avec végétalisation sur le toit à 720m d'altitude
+            !</h5>
+            <img src="elements/svg/fleche_verte.svg" class="fleche-verte"
+            alt="fleche verte">
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="d-flex flex-column align-items-center mb-5 pb-3">
+      <a href="/" class="btn btn-green-small text-uppercase font-weight-bold
+      mb-5 d-flex justify-content-center align-items-center">
+        <p class="mb-0 font-14 font-weight-bold font-regular">toute
+        l'actualité</p>
+      </a>
+    </div>
+    <div class="dropdown-divider"></div>
+    <section class="my-5 py-4 text-center container">
+      <p class="noto-sans font-15">
+        <strong>Votre Garage Bois</strong>, site vitrine de La société
+        <strong>Bois & Passion</strong> est spécialisée dans la construction, la
+        fourniture et la pose de garage bois.
+      </p>
+      <p class="noto-sans font-15">
+        En utilisant <strong>les simulateurs garage bois</strong>, vous pourrez
+        inclure toutes les informations nécessaires pour donner vie à votre
+        projet. Nous mettons à votre disposition <strong>plusieurs types de
+        toitures</strong> : toit plat, mono pan et deux pans. Vous pouvez
+        choisir la fonction pose par nos équipes sur toute la France ou la
+        livraison en kit.
+      </p>
+      <p class="noto-sans font-15">
+        Pour tous les garages standards, notre simulateur vous permets d'obtenir
+        une vue 3D et un tarif en quelques clics.
+      </p>
+      <p class="noto-sans font-15 green-light font-weight-bold">
+        Tout est réuni pour faire de votre garage bois une pièce unique !
+      </p>
+    </section>
+    <section>
+      <img src="elements/bloc_carte_home.jpg" id="bloc-carte-home" class="w-100"
+      alt="bloc carte france home">    
+    </section>
+    <footer class="d-flex align-items-center position-relative">
+      <a href="/">
+        <div id="slider-up" class="d-flex align-items-center
+        justify-content-center position-absolute">
+          <img src="elements/svg/fleche_haut_de_page.svg" alt="fleche haut de
+          page">
+        </div>
+      </a>
+      <section class="container-main">
+        <div class="mb-1 mt-5">
+          <img src="elements/madeinfrance.png" alt="made in france">
+        </div>
+        <article class="d-flex justify-content-between">
+          <div id="footer-li">
+            <div class="d-flex align-items-center mb-3">
+              <h3 class="text-uppercase beige font-regular font-weight-bold
+              font-23 mb-0 mr-3">votre garage bois par</h3>
+              <img src="elements/logo_B&P_footer.png" id="picto-footer-bp"
+              alt="logo bois & passion">
+            </div>
+            <ul>
+              <li class="noto-sans font-13 text-white mb-1">Votre Garage Bois
+              propose un garage bois de belle qualité moins cher chez Bois &
+              Passion</li>
+              <li class="noto-sans font-13 text-white mb-1">Un garage bois de
+              qualité moins cher</li>
+              <li class="noto-sans font-13 text-white mb-1">Un garage bois de
+              qualité avec une grands durée de vie</li>
+              <li class="noto-sans font-13 text-white mb-1">Du choix dans les
+              parements et des prix avantageux pour votre garage bois</li>
+              <li class="noto-sans font-13 text-white mb-1">Un expert du garage
+              ossature bois à votre service</li>
+              <li class="noto-sans font-13 text-white mb-1">Commandez un Garage
+              bois de qualité</li>
+              <li class="noto-sans font-13 text-white mb-1">Garage bois pour sol
+              instable</li>
+              <li class="noto-sans font-13 text-white mb-1">Une société
+              d’ossature bois qui réponds aux professionnels et aux gros
+              projets</li>
+            </ul>
+          </div>
+          <div class="mt-3">
+            <h3 class="beige font-regular font-weight-bold font-23
+            mb-3">certification</h3>
+            <img src="elements/rge-qualibat-seeklogo.com.png"
+            id="picto-footer-rge" alt="certification rge qualibat logo">
+          </div>
+          <div class="mt-3">
+            <h3 class="beige font-regular font-weight-bold font-23
+            mb-3">contactez-nous</h3>
+            <div>
+              <div class="d-flex align-items-center mb-3">
+                <img src="elements/svg/picto_location.svg" id="picto-location" alt="picto location">
+                <p class="noto-sans font-15 text-white mb-0 ml-2">16 rue Jean
+                Moulin 25410 St Vit<p/>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <img src="elements/svg/picto_phone.svg" id="picto-footer-tel"
+                alt="picto phone">
+                <p class="noto-sans font-15 text-white mb-0 ml-2">03 39 25 05
+                50</p>
+              </div>
+              <div class="d-flex align-items-center mb-3">
+                <img src="elements/svg/picto_mail.svg" id="picto-footer-mail"
+                alt="picto mail">
+                <p class="noto-sans font-weight-bold font-15 text-white mb-0
+                ml-2">Contactez-nous</p>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="d-flex flex-column align-items-center mt-3">
+          <div class="mb-3">
+            <img src="elements/svg/fb_footer.svg" class="logo-footer mr-3 pr-1"
+            alt="logo facebook">
+            <img src="elements/svg/tw_footer.svg" class="logo-footer mr-3 pr-1"
+            alt="logo facebook">
+            <img src="elements/svg/insta_footer.svg" class="logo-footer mr-3
+            pr-1" alt="logo facebook">
+            <img src="elements/svg/yt_footer.svg" class="logo-footer" alt="logo
+            facebook">
+          </div>
+          <div id="legale">
+            <p class="noto-sans font-15 beige"><a href="/">Plan de site</a><span
+            class="mx-2"> - </span><a href="/">Mentions légales</a></p>
+          </div>
+        </article>
+      </section>
+    </footer>
+  </main>
+</body>
+</html>

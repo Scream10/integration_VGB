@@ -1,0 +1,691 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+  --brown-light: rgb(102, 64, 44);
+  --beige: rgb(166, 109, 75);
+  --camel: rgb(166, 128, 66);
+  --green-light: rgb(0, 148, 92);
+  --green: rgb(23, 99, 58);
+  --brown: rgb(61, 37, 20);
+  --brown-dark: rgb(35, 18, 1);
+}
+
+p {
+	font-family: "Poppins Semibold", sans-serif;
+	font-size: 13px;
+}
+
+nav {
+	height: 55px;
+	background-color: rgb(231, 227, 222);
+}
+
+nav p {
+  color: var(--brown-light);
+}
+
+nav:nth-child(2) {
+	height: 80px;
+  background-color: white;
+}
+
+nav:nth-child(2) p {
+  color: var(--brown);
+}
+
+nav:last-child section {
+	height: 80px;
+}
+
+nav section p {
+	margin-bottom: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li img {
+  height: 16px;
+}
+
+.divider-white {
+  width: 2px;
+  height: 55px;
+  background-color: white;
+}
+
+.divider-brown {
+  width: 30px;
+  height: 6px;
+  background-color: var(--camel);
+}
+
+#logo-votre-garage-bois {
+  height: 40px;
+}
+
+#logo-bois-passion {
+  bottom: -35px;
+  left: 51px;
+}
+
+.container-nav, .container-main {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 1200px) {
+  .container-nav {
+    max-width: 1300px;
+  }
+  .container-main {
+    max-width: 1200px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .container-nav, .container-main {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container-nav, .container-main {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px)  {
+  .container-nav, .container-main {
+    max-width: 540px;
+  }
+}
+
+.bg-orange {
+  background-color: rgb(241, 138, 1);
+}
+
+.orange {
+  color: rgb(241, 138, 1);
+}
+
+.brown-dark {
+  color: rgb(35, 18, 1) !important;
+}
+
+.green-light {
+  color: rgb(0, 148, 92);
+}
+
+.letter-spacing-1 {
+  letter-spacing: 1px;
+}
+
+#simulateur {
+  height: 100%;
+  width: 200px;
+}
+
+#simulateur img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+#simulateur p{
+  color: white;
+  font-size: 11px;
+}
+
+#simulateur-orange {
+  line-height: 1.2;
+}
+
+.arrow {
+  position: relative;
+  border: solid var(--brown-light);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  bottom: 3px;
+  left: 5px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.triangle-nav {
+  display : inline-block;
+  height : 0;
+  width : 0;
+  left: 44%;
+  bottom: -12px;
+  border-top : 14px solid white;
+  border-right : 14px solid transparent;
+  border-left : 14px solid transparent;
+}
+
+.triangle-category {
+  display : inline-block;
+  height : 0;
+  width : 0;
+  left: 44%;
+  bottom: 60px;
+  transform: rotate(180deg);
+  border-top : 14px solid white;
+  border-right : 14px solid transparent;
+  border-left : 14px solid transparent;
+}
+
+.triangle-category-2 {
+  border-top : 14px solid rgb(231, 227, 222);
+}
+
+.triangle-category-3 {
+  border-top : 14px solid rgb(241, 239, 237);
+}
+
+#picto-phone {
+	height: 16.5px;
+}
+
+#picto-mail {
+	height: 12.5px;
+} 
+
+#picto-location {
+	height: 22px;
+} 
+
+#picto-espace-client {
+	height: 22px;
+} 
+
+#picto-madeinfrance {
+	width: 123px;
+} 
+
+.z-index-max {
+  z-index: 10000;
+}
+
+.z-index-min {
+  z-index: 1;
+}
+
+.z-index-negative {
+  z-index: -1;
+}
+
+.z-index-negative-2 {
+  z-index: -2;
+}
+
+#simulateur-garage {
+  background-color: rgba(35, 18, 1, .7);
+  width: 588px;
+  height: 114px;
+  bottom: 134px;
+} 
+
+#simulateur-garage-arrow {
+  height: 51px;
+  width: 39px;
+  bottom: 54px;
+} 
+
+#simulateur-garage p {
+  font-size: 24px;
+  letter-spacing: .1rem;
+}
+
+#simulateur-garage h1 {
+  line-height: .8;
+  letter-spacing: .2rem;
+  font-size: 49px;
+} 
+
+#info-simulations-garages {
+  height: 153px;
+  width: 119px;
+  background-color: var(--brown);
+  bottom: -77.5px;
+  left: 0;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, .25);
+}
+
+#fond-simulateur-home {
+  background: url("elements/fond_simulateur_home.jpg");
+  background-size: cover;
+  min-height: 624px;
+}
+
+#fond-simulateur-home img {
+  width: 40px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-image: none;
+}
+
+.carousel-control-next-icon
+{
+  position: relative;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  right: -80px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.carousel-control-prev-icon {
+  position: relative;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  left: -80px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+#carouselControls .carousel-control-next-icon
+{
+  position: relative;
+  border: solid rgb(179, 179, 179);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  right: 8px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+#carouselControls .carousel-control-prev-icon {
+  position: relative;
+  border: solid rgb(179, 179, 179);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  left: 8px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+#carouselControls .carousel-control-next {
+  right: -130px;
+}
+
+#carouselControls .carousel-control-prev {
+  left: -130px;
+}
+
+#picto-garage-blanc {
+  width: 63px;
+}
+
+#picto-garage-standard {
+  min-width: 116px;
+}
+
+#picto-garage-surmesure {
+  min-width: 96px;
+}
+
+.btn-orange {
+  background-color: rgb(241, 138, 1);
+  padding: 15px 30px;
+  border-radius: 35px;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, .2);
+  color: white;
+  width: 360px;
+  height: 70px;
+  font-size: 20px;
+}
+
+.btn-orange-small {
+  background-color: rgb(241, 138, 1);
+  padding: 15px 30px;
+  border-radius: 35px;
+  color: white;
+  width: 282px;
+  height: 48px;
+  font-size: 14px;
+} 
+
+.btn-green-small {
+  background-color: var(--green-light);
+  padding: 15px 30px;
+  border-radius: 35px;
+  color: white;
+  width: 188px;
+  height: 48px;
+  font-size: 14px;
+} 
+
+.btn-orange-small img {
+  height: 25px;
+}
+
+.btn-orange:hover, .btn-orange-small:hover, .btn-green-small:hover {
+  color: white;
+}
+
+#div-scroll-avis {
+  overflow-x: scroll;
+}
+
+#div-scroll-avis::-webkit-scrollbar {
+  display: none;
+}
+
+.font-44 {
+  font-size: 44px;
+}
+
+.font-27 {
+  font-size: 27px;
+}
+
+.font-25 {
+  font-size: 25px;
+}
+
+.font-23 {
+  font-size: 23px;
+}
+
+.font-21 {
+  font-size: 21px;
+}
+
+.font-19 {
+  font-size: 19px !important;
+}
+
+.font-17 {
+  font-size: 17px;
+}
+
+.font-15 {
+  font-size: 15px;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.font-13 {
+  font-size: 13px;
+}
+
+.font-regular {
+  font-family: "Poppins", sans-serif;
+}
+
+.font-semibold {
+  font-family: "Poppins Semibold", sans-serif;
+}
+
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.brown {
+  color: var(--brown);
+}
+
+.beige {
+  color: var(--beige);
+}
+
+h2 {
+  font-size: 31px;
+  color: var(--brown);
+}
+
+#coeur {
+  width: 26px;
+  height: 22px;
+}
+
+.container-nos-plus {
+  width: 215px;
+}
+
+.container-logo-nos-plus {
+  width: 215px;
+  height: 100px;
+}
+
+.picto-nos-plus {
+  height: 80px;
+}
+
+div:nth-child(2) .picto-nos-plus {
+  height: 72px;
+}
+
+div:nth-child(3) .picto-nos-plus {
+  height: 70px;
+}
+
+div:nth-child(4) .picto-nos-plus {
+  height: 76px;
+}
+
+div:nth-child(5) .picto-nos-plus {
+  height: 69px;
+}
+
+div:nth-child(6) .picto-nos-plus {
+  height: 51px;
+}
+
+div:nth-child(1) .picto-nos-plus-2 {
+  height: 65px;
+}
+
+div:nth-child(2) .picto-nos-plus-2 {
+  height: 70px;
+}
+
+div:nth-child(3) .picto-nos-plus-2 {
+  height: 81px;
+}
+
+div:nth-child(4) .picto-nos-plus-2 {
+  height: 68px;
+}
+
+div:nth-child(5) .picto-nos-plus-2 {
+  height: 53px;
+}
+
+div:nth-child(6) .picto-nos-plus-2 {
+  height: 68px;
+}
+
+#systeme-constructif {
+  background: linear-gradient(rgb(192, 179, 158), rgb(231, 227, 222));
+  height: 893px;
+  width: 100%;
+}
+
+.card-body ul li::before {
+  content: ""; 
+  height: 5px;
+  width: 5px;
+  background: var(--green-light);
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+
+.card-body p, .card-body li {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.play-video {
+  width: 55px;
+  height: 55px;
+  left: calc(50% - 27.5px);
+  top: calc(50% - 27.5px);
+}
+
+.les-plus {
+  width: 32px;
+  height: 32px;
+  border: 2.5px solid var(--green-light);
+  border-radius: 50%;
+  background-color: white;
+  left: -16px;
+  bottom: 52px;
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.les-plus::before {
+  content: '+';
+  position: relative;
+  bottom: 4px;
+  left: 4px;
+  color: var(--green-light);
+}
+
+#section-info-chiffres {
+  background: url("elements/fond_chiffre.jpg");
+  background-size: cover;
+  background-position-y: 39.5%;
+  height: 354px;
+}
+
+#picto-insta-vert {
+  height: 32px;
+}
+
+.pictures-insta {
+  height: 289px;
+  width: 289px;
+}
+
+#background-gray-left {
+  height: 442px;
+  width: 818px;
+  left: -33%;
+  top: -4%;
+  background: linear-gradient(to right, white,rgb(231, 227, 222));
+}
+
+#background-gray-right {
+  height: 389px;
+  width: 895px;
+  right: 1%;
+  top: 10%;
+  background: linear-gradient(to right, rgb(231, 227, 222), white);
+}
+
+.picto-service-integres {
+  height: 45px;
+}
+
+li:nth-child(2) .picto-service-integres  {
+  height: 60px;
+}
+
+.dropdown-divider-mid {
+  width: 425px;
+  margin-left: 72px;
+}
+
+#dropdown-divider-category {
+  top: 54%;
+}
+
+.fleche-verte {
+  height: 10px;
+}
+
+#picto-rss {
+  height: 19px;
+}
+
+#bloc-carte-home {
+  height: 592px;
+  background: center center;
+  object-fit: cover;
+}
+
+footer {
+  height: 482px;
+  background-color: var(--brown-dark);
+}
+
+.logo-footer {
+  height: 22px;
+}
+
+#legale a {
+  color: var(--beige);
+}
+
+#footer-li ul li:before {
+  content: ""; 
+  height: 5px;
+  width: 5px;
+  background: var(--beige);
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+
+#picto-footer-bp {
+  height: 73px;
+}
+
+#picto-footer-rge {
+  height: 94px;
+}
+
+#picto-footer-tel {
+  height: 16.5px;
+}
+
+#picto-footer-mail {
+  height: 12.5px;
+}
+
+#slider-up {
+  height: 41px;
+  width: 41px;
+  top: -20.5px;
+  right: 45px;
+  background-color: var(--green-light);
+}
+
+#slider-up img {
+  height: 16px;
+  width: 9px;
+}
