@@ -32,6 +32,40 @@ h1, h2, h3, h4 {
   #menu-top p {
     display: none;
   }
+  nav li {
+    margin: .5rem 0;
+  }
+  #simulateur-garage p {
+    font-size: 14px !important;
+  }
+  #simulateur-garage h1 {
+    font-size: 26px !important;
+  } 
+  #simulateur-garage-arrow {
+    height: 35px !important;
+    width: 27px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  nav {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  nav li {
+    display: flex;
+    align-items: center;
+  }
+  .triangle-nav {
+    bottom: -12px !important;
+  } 
+  #logo-bois-passion {
+    bottom: -45px !important;
+  }
+}
+
+#carouselBannerControls {
+  margin-top: 120px;
 }
 
 nav p, #menu-top p {
@@ -82,8 +116,8 @@ ul {
 }
 
 #logo-bois-passion {
-  bottom: -60px;
-  left: 22px;
+  bottom: -45px;
+  left: 31px;
 }
 
 .bg-orange {
@@ -134,8 +168,8 @@ ul {
   display : inline-block;
   height : 0;
   width : 0;
-  left: 44%;
-  bottom: -32px;
+  left: 106px;
+  bottom: -20px;
   border-top : 14px solid white;
   border-right : 12px solid transparent;
   border-left : 12px solid transparent;
@@ -585,7 +619,15 @@ div:nth-child(6) .picto-nos-plus-2 {
   height: 40px;
 }
 
-.dropdown-divider-mid {
+.dropdown-divider-mid::after {
+  content: '';
+  position: absolute;
+  bottom: -30%;
+  left: -1%;
+  height: 0;
+  margin: .5rem 0;
+  overflow: hidden;
+  border-top: 1px solid #e9ecef;
   width: 425px;
   margin-left: 72px;
 }
