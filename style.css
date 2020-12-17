@@ -19,6 +19,10 @@ p {
 	font-size: 13px;
 }
 
+h1, h2, h3, h4 {
+	font-family: "Poppins Semibold", sans-serif;
+}
+
 nav {
 	height: 55px;
 	background-color: rgb(231, 227, 222);
@@ -30,7 +34,6 @@ nav p {
 
 nav:nth-child(2) {
 	height: 80px;
-  background-color: white;
 }
 
 nav:nth-child(2) p {
@@ -57,7 +60,7 @@ ul {
   list-style-type: none;
 }
 
-li img {
+.picto-nav {
   height: 16px;
 }
 
@@ -78,11 +81,11 @@ li img {
 }
 
 #logo-bois-passion {
-  bottom: -35px;
-  left: 51px;
+  bottom: -60px;
+  left: 50px;
 }
 
-.container-nav, .container-main {
+.container-nav, .container-main, .container-article {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -97,6 +100,9 @@ li img {
   .container-main {
     max-width: 1200px;
   }
+  .container-article {
+    max-width: 1420px;
+  } 
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -138,18 +144,13 @@ li img {
 }
 
 #simulateur {
-  height: 100%;
+  height: 80px;
   width: 200px;
 }
 
 #simulateur img {
   max-width: 30px;
   max-height: 30px;
-}
-
-#simulateur p{
-  color: white;
-  font-size: 11px;
 }
 
 #simulateur-orange {
@@ -176,10 +177,10 @@ li img {
   height : 0;
   width : 0;
   left: 44%;
-  bottom: -12px;
+  bottom: -32px;
   border-top : 14px solid white;
-  border-right : 14px solid transparent;
-  border-left : 14px solid transparent;
+  border-right : 12px solid transparent;
+  border-left : 12px solid transparent;
 }
 
 .triangle-category {
@@ -257,8 +258,8 @@ li img {
 }
 
 #simulateur-garage h1 {
-  line-height: .8;
-  letter-spacing: .2rem;
+  line-height: .9;
+  letter-spacing: .1rem;
   font-size: 49px;
 } 
 
@@ -272,8 +273,8 @@ li img {
 }
 
 #fond-simulateur-home {
-  background: url("elements/fond_simulateur_home.jpg");
-  background-size: cover;
+  background: url("elements/fond_simulateur_home.jpg") center;
+  object-fit: cover;
   min-height: 624px;
 }
 
@@ -439,6 +440,10 @@ li img {
   font-size: 13px;
 }
 
+.font-11 {
+  font-size: 11px;
+}
+
 .font-regular {
   font-family: "Poppins", sans-serif;
 }
@@ -474,7 +479,6 @@ h2 {
 }
 
 .container-logo-nos-plus {
-  width: 215px;
   height: 100px;
 }
 
@@ -528,7 +532,8 @@ div:nth-child(6) .picto-nos-plus-2 {
 
 #systeme-constructif {
   background: linear-gradient(rgb(192, 179, 158), rgb(231, 227, 222));
-  height: 893px;
+  object-fit: cover;
+  min-height: 893px;
   width: 100%;
 }
 
@@ -575,10 +580,9 @@ div:nth-child(6) .picto-nos-plus-2 {
 }
 
 #section-info-chiffres {
-  background: url("elements/fond_chiffre.jpg");
+  background: url("elements/fond_chiffre.jpg") center center no-repeat;
   background-size: cover;
-  background-position-y: 39.5%;
-  height: 354px;
+  min-height: 354px;
 }
 
 #picto-insta-vert {
@@ -606,12 +610,28 @@ div:nth-child(6) .picto-nos-plus-2 {
   background: linear-gradient(to right, rgb(231, 227, 222), white);
 }
 
-.picto-service-integres {
+.service-integres {
+  height: 57px;
+}
+
+#picto-service-integres-1 {
   height: 45px;
 }
 
-li:nth-child(2) .picto-service-integres  {
-  height: 60px;
+#picto-service-integres-2 {
+  height: 58px;
+}
+
+#picto-service-integres-3 {
+  height: 42px;
+}
+
+#picto-service-integres-4 {
+  height: 38.5px;
+}
+
+#picto-service-integres-5{
+  height: 40px;
 }
 
 .dropdown-divider-mid {
@@ -638,7 +658,7 @@ li:nth-child(2) .picto-service-integres  {
 }
 
 footer {
-  height: 482px;
+  min-height: 482px;
   background-color: var(--brown-dark);
 }
 
